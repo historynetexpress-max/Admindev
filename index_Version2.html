@@ -1,53 +1,21 @@
-<!doctype html>
-<html lang="hi">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Multiple AI Chat - Demo (Fullstack)</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updated Version</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="app">
-    <!-- Top selection bar (scrollable horizontally) -->
-    <div class="top-bar">
-      <button class="scroll-btn left" data-target="topBar" aria-label="Scroll left">‹</button>
-      <div id="topBar" class="h-scroll">
-        <!-- items injected by JS -->
-      </div>
-      <button class="scroll-btn right" data-target="topBar" aria-label="Scroll right">›</button>
-    </div>
-
-    <!-- Floating models bar (sticky/floating with horizontal scroll & bigger cards) -->
-    <div class="floating-bar" id="floatingBarWrap">
-      <button class="scroll-btn left" data-target="floatingBar" aria-label="Scroll left">‹</button>
-      <div id="floatingBar" class="h-scroll cards">
-        <!-- model cards injected by JS -->
-      </div>
-      <button class="scroll-btn right" data-target="floatingBar" aria-label="Scroll right">›</button>
-    </div>
-
-    <!-- Chat area -->
-    <main class="chat-wrap">
-      <div id="chat" class="chat"></div>
-
-      <form id="composer" class="composer" autocomplete="off">
-        <div class="composer-left">
-          <label for="modeSelect" class="sr-only">Model Mode</label>
-          <select id="modeSelect" title="Choose model (single)" aria-label="Choose model">
-            <!-- options injected by JS -->
-          </select>
-        </div>
-
-        <textarea id="messageInput" placeholder="अपना संदेश टाइप करें... (Press Enter to send, Shift+Enter for newline)"></textarea>
-
-        <div class="composer-right">
-          <button type="button" id="multiSendToggle" class="btn small">Multi</button>
-          <button type="submit" id="sendBtn" class="btn primary">Send</button>
-        </div>
-      </form>
+    <header>
+        <h1>Welcome to the Updated Version</h1>
+    </header>
+    <main>
+        <p>This version has been updated to remove all Kimi agent references.</p>
+        <p>Enjoy a cleaner browsing experience!</p>
     </main>
-  </div>
-
-  <script src="app.js"></script>
+    <footer>
+        <p>© 2026 Updated Version</p>
+    </footer>
 </body>
 </html>
