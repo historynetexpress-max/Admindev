@@ -33,23 +33,7 @@
   <body>
     <div id="root"></div>
     <script>
-      // Hide Kimi Agent widget permanently
-      (function() {
-        function hideKimiAgent() {
-          const selectors = [
-            '[kimi-agent]',
-            '[data-kimi-agent]',
-            '.kimi-agent',
-            '#kimi-agent',
-            '.kimi-widget',
-            '#kimi-widget',
-            '[class*="kimi-agent"]',
-            '[id*="kimi-agent"]',
-            '[class*="kimi-widget"]',
-            '[id*="kimi-widget"]',
-            '[class*="KimiAgent"]',
-            '[id*="KimiAgent"]'
-          ];
+      
           
           selectors.forEach(selector => {
             const elements = document.querySelectorAll(selector);
